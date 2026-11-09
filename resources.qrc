@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file>assets/app.ico</file>
+    <file>assets/majestic_logo.png</file>
+  </qresource>
+</RCC>

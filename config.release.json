@@ -1,0 +1,7 @@
+{
+  "_comment": "СПРАВКА/опц. override. Деплой-значения зашиты в Config.cpp, установщик config.json НЕ кладёт. Этот файл — лишь эталон прод-значений: при желании можно вручную положить config.json рядом с exe, чтобы переопределить apiBaseUrl/wsBaseUrl/serverId/botUsername без пересборки (напр. для дева/смены домена).",
+  "apiBaseUrl": "https://overlay.turgovbot.ru",
+  "wsBaseUrl": "wss://overlay.turgovbot.ru",
+  "serverId": "orlando",
+  "botUsername": "turgov_bot"
+}

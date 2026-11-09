@@ -1,0 +1,46 @@
+build/
+out/
+config.json
+*.user
+CMakeCache.txt
+CMakeFiles/
+
+# Сборка/артефакты дистрибутива
+dist/
+installer/
+release-out/
+
+# Подписи/ключи авто-обновления — приватный ключ НИКОГДА не в репозитории
+*.pem
+ed25519_private*
+
+# Диагностические утилиты/скретч (WASAPI и пр.) + любые скомпилированные бинарники —
+# не часть продукта, в репозиторий не кладём (файлы остаются на диске).
+test/
+*.exe
+
+
+# Рантайм-логи (QT_FORCE_STDERR_LOGGING)
+*.log
+runtime.*.log
+
+# Сторонний рантайм + модели локального движка (sherpa-onnx + onnxruntime + ~252МБ моделей) —
+# НЕ в репозиторий (~323МБ). Качается отдельно: sherpa GitHub releases + докачка моделей в клиенте
+# (ModelManager → /updates/models/). Сюда же попадают dev-пробы (smoke*.c/.exe).
+thirdparty/
+
+# Дизайн-материалы (скрины-референсы Majestic, handoff-папки) — не часть сборки
+Скрины дизайна мадж/
+design_handoff_majestic_overlay/
+*_backup.png
+
+# IDE / редакторы
+.vscode/
+.idea/
+.vs/
+*.code-workspace
+build-qa/
+.claude/
+build-laws/
+build-prot/
+build-qa-prot/

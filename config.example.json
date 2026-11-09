@@ -1,0 +1,7 @@
+{
+  "_comment": "Скопируй в config.json. Релиз — https/wss через домен (как тут). Для локальной разработки можно временно указать http/ws на IP:порт. Клиент читает только apiBaseUrl/wsBaseUrl/serverId/botUsername; хоткеи — в %APPDATA%/RpOverlay/settings.json.",
+  "apiBaseUrl": "https://overlay.turgovbot.ru",
+  "wsBaseUrl": "wss://overlay.turgovbot.ru",
+  "serverId": "orlando",
+  "botUsername": "PUT_BOT_USERNAME_HERE"
+}
